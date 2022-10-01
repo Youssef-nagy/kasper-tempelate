@@ -1166,7 +1166,7 @@ header nav .form i {
 
 /* End Contact Us */
 /* Start Footer */
-.footer {
+.last-footer {
     padding-top: calc(var(--section-padding));
     padding-bottom: calc(var(--section-padding));
     background-image: url(../images/subscribe.jpg);
@@ -1176,7 +1176,7 @@ header nav .form i {
     color: white;
 }
 
-.footer::before {
+.last-footer::before {
     content: "";
     position: absolute;
     top: 0;
@@ -1186,11 +1186,11 @@ header nav .form i {
     background-color: rgb(0 0 0 / 70%);
 }
 
-.footer .container {
+.last-footer .container {
     position: relative;
 }
 
-.footer p:not(.copyright) {
+.last-footer p:not(.copyright) {
     padding: 20px;
     border-bottom: 1px solid white;
     width: fit-content;
@@ -1198,20 +1198,20 @@ header nav .form i {
     font-size: 20px;
 }
 
-.footer img {
+.last-footer img {
     margin-bottom: 20px;
 }
 
-.footer .copyright {
+.last-footer .copyright {
     margin-top: 60px;
 }
 
-.footer .copyright span {
+.last-footer .copyright span {
     font-weight: bold;
     color: var(--main-color);
 }
 
-.footer .social-icons i {
+.last-footer .social-icons i {
     padding: 10px 15px;
 }
 
